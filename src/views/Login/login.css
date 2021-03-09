@@ -1,0 +1,301 @@
+body {
+  background-color: #f0f0f5;
+}
+
+#email, #senha, #email_senha, #nome_cadastro, #email_cadastro, #celular, #cidade, #senha_cadastro, #token {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: rgb(255, 127, 39);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 40px;
+  outline: none;
+  padding-left: 50px;
+  transition: 0.3s ease-out;
+  font-family: Calibri;
+  font-size: 16px;
+}
+
+#email:focus, #senha:focus, #email_senha:focus, #nome_cadastro:focus, #email_cadastro:focus, #celular:focus, #cidade:focus, #senha_cadastro:focus, #token:focus { 
+  box-shadow: 0 0 10px rgb(255, 127, 39);
+}
+
+#email, #email_senha, #email_cadastro {
+  background-image: url(../../images/email.jpg);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+}
+
+#email_senha, #email_cadastro {
+  margin-left: 5px;
+}
+
+#senha, #senha_cadastro {
+  background-image: url(../../images/senha.png);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+}
+
+#senha_cadastro {
+  margin-left: 5px;
+}
+
+#nome, #nome_cadastro {
+  background-image: url(../../images/nome.png);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+}
+
+#nome_cadastro {
+  margin-left: 5px;
+}
+
+#celular {
+  background-image: url(../../images/celular.png);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  margin-left: 5px;
+}
+
+#input-group_login {
+  display: flex;
+  width: 300px;
+  margin-left: 5px;
+}
+
+#cidade {
+  background-image: url(../../images/estado.jpg);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  width: 245px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#uf {  
+  border-radius: 6px;
+  border-color: rgb(255, 127, 39);
+  height: 40px;
+  width: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Calibri;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#uf:focus {
+  box-shadow: 0 0 10px rgb(255, 127, 39);
+}
+
+#token {
+  background-image: url(../../images/token.png);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+}
+
+select:focus {
+  outline: 0;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.botao {
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  font-family: Calibri;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(255, 127, 39);
+  color: white;
+  transition: 0.3s;
+}
+
+.botao:hover{
+  filter: brightness(95%);
+}
+
+.botao:focus{
+  outline: none;
+}
+
+.btnGoogle {
+  height: 40px;
+  color: black;
+  border: none;
+  background-color: white;
+  background-image: url(../../images/google.png);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  padding-left: 50px;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin-right: 15px;
+}
+
+.btnFacebook {
+  height: 40px;
+  color: white;
+  border: none;
+  background-color: rgb(66, 103, 178);
+  background-image: url(../../images/facebook.png);
+  background-size: 30px;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  padding-left: 50px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btnGoogle:hover, .btnFacebook:hover{
+  filter: brightness(95%);
+  cursor: pointer;
+}
+.btnGoogle:focus, .btnFacebook:focus{
+  outline: 0;
+}
+
+#tela {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  margin: 10px;
+  border-radius: 6px;  
+  box-shadow: 5px 5px 10px silver;
+  min-height: 296px;
+  background-image: linear-gradient(to bottom right, rgb(0, 130, 172), rgb(133, 223, 211));
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fatoracao {
+  width: 240px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 10px silver;
+  border-radius: 6px;
+}
+
+#esqueci_cadastro {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: Calibri;
+  text-align: center;
+}
+
+#esqueci:hover {
+  background-color: rgb(133, 223, 211);
+  border-radius: 6px;
+}
+
+#cadastro {
+  border: 1px solid rgb(255, 201, 14);
+  border-radius: 6px;
+  background-color: rgb(255, 201, 14);
+  transition: 0.3s;
+}
+
+#cadastro:hover {
+  filter: brightness(95%);
+  cursor: pointer;
+}
+
+#login {
+  display: grid;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 10% 90%;
+  font-weight: bold;
+  font-family: Calibri;
+  text-align: center;  
+  margin-bottom: 10px;
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content{
+  width: 350px;
+  background-color: #f0f0f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-title{
+  font-size: 18px;
+}
+
+.modal-body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.btn {
+  border-radius: 6px;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 145px;
+  height: 40px;
+  padding-left: 10px;
+  font-family: Calibri;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(255, 127, 39);
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background-color: rgb(255, 127, 39);
+  filter: brightness(95%);
+}
