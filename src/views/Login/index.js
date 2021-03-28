@@ -130,7 +130,7 @@ export default function Login() {
                   </div>
                   <div>
                     <GoogleLogin
-                      clientId="388123972863-n2nk142rf6ij36hv6u8nilurrl2pc254.apps.googleusercontent.com"
+                      clientId="388123972863-naonosl32ekbmom0gl3gs0rp7p1tm2q1.apps.googleusercontent.com"
                       render={renderProps => (
                         <button className="btnGoogle" onClick={renderProps.onClick} disabled={renderProps.disabled}>Google</button>
                       )}
