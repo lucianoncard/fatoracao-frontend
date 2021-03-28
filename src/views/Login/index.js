@@ -13,12 +13,12 @@ import fatoracao from '../../images/fatoracao.png';
 const responseGoogle = (response) => {
   localStorage.setItem('aluno_nome', response.profileObj.name);
   localStorage.setItem('aluno_email', response.profileObj.email);
-  if (response.profileObj.name !== undefined) window.location.href = "http://localhost:3000/home";
+  if (response.profileObj.name !== undefined) window.location.href = "https://fatoracao-frontend.herokuapp.com/home";
 }
 
 const responseFacebook = (response) => {
   localStorage.setItem('aluno_nome', response.name);
-  if (response.name !== undefined) window.location.href = "http://localhost:3000/home";
+  if (response.name !== undefined) window.location.href = "https://fatoracao-frontend.herokuapp.com/home";
 }
 
 export default function Login() {
