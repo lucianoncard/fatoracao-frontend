@@ -14,7 +14,6 @@ const responseGoogle = (response) => {
   localStorage.setItem('aluno_nome', response.profileObj.name);
   localStorage.setItem('aluno_email', response.profileObj.email);
   if (response.profileObj.name !== undefined) window.location.href = "https://fatoracao-frontend.herokuapp.com/home";
-  alert('testando');
 }
 
 const responseFacebook = (response) => {
