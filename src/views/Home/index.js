@@ -605,6 +605,7 @@ export default function Home() {
             {aluno.celular}<br/>
             {aluno.email}<br/>
             {aluno.cidade}/{aluno.estado}<br/>
+            ID: {aluno._id}<br/>
           </div>
         ))}
       </div>
