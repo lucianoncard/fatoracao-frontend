@@ -1,0 +1,359 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 6.5% 93.5%;
+  margin: 2%;
+}
+  
+#canto {
+  background-color: rgb(255, 201, 14);
+  border-top-left-radius: 6px;
+}
+  
+#cima {
+  background-color: rgb(255, 127, 39);
+  box-shadow: 5px 5px 10px silver;
+  border-top-right-radius: 6px;
+}
+  
+#esquerda {
+  background-color: rgb(0, 200, 200);
+  box-shadow: 5px 5px 10px silver;
+  border-bottom-left-radius: 6px;
+}
+  
+#corpo {
+  background-color: rgb(243, 242, 239);;
+  box-shadow: 5px 5px 10px silver;
+  border-bottom-right-radius: 6px;
+}
+  
+a:hover {
+  text-decoration: none;
+}
+  
+nav {
+  font-family: Calibri;
+  font-weight: bold;
+}
+
+p {
+  font-family: Calibri;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#home, #motivacao, #livros, #videos, #cadastro_logado, #alunos, #comunidade {
+  margin: 2%;
+}
+  
+#fatoracao_home {
+  width: 300px;
+}
+  
+#ufmg {
+  width: 150px;
+}
+  
+#enem2019 {
+  float: left;
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+  
+.card_enem:hover {
+  box-shadow: 5px 5px 10px silver;
+  top: -2px;
+}
+
+.card-body {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+  
+.card-text {
+  margin-bottom: 0px;
+}
+  
+#botao_livro {
+  background-color: rgb(0, 200, 200);
+  font-size: 16px;
+}
+  
+#enviar_livro {
+  background-color: rgb(0, 200, 200);
+  border-color: rgb(0, 200, 200);
+}
+  
+.modal-footer {
+  background-color: rgb(0, 200, 200);
+}
+
+#botao_menu {
+  outline: none;
+}
+
+#botao_menu:hover {
+  border: 1px solid rgb(255, 201, 14);;
+}
+
+.mr-auto.navbar-nav a.nav-link{
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 2px;
+  color: white;
+  border: solid 1px;
+  border-color: rgb(255, 127, 39);
+  border-radius: 20px;
+  transition: 0.5s;
+  width: 120px;
+  text-align: center;
+}
+
+.mr-auto.navbar-nav a.nav-link:hover{
+  border-color: rgb(255, 201, 14);
+  color: black;
+}
+
+#basic-nav-dropdown {
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 16px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: solid 1px;
+  border-color: rgb(255, 127, 39);
+  border-radius: 20px;
+  transition: 0.5s;
+  width: 220px;
+  text-align: center;
+  color: white;
+}
+
+#basic-nav-dropdown:hover {
+  border-color: rgb(255, 201, 14);
+  color: black;
+}
+
+#video1, #vinheta {
+  max-width: 270px;
+  margin-right: 10px;
+  outline: none;
+}
+
+#video1:hover, #vinheta:hover {
+  cursor: pointer;
+}
+
+#cadastro_logado {
+  width: 320px;
+}
+
+#texto_cadastro {
+  width: 65px;
+  float: left;
+}
+
+#texto_questao {
+  width: 85px;
+  float: left;
+}
+
+#questoes_cadastradas {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Calibri;
+}
+
+#input_cadastro_nome, #input_cadastro_email, #input_cadastro_celular {
+  width: 255px;
+  border: 1px solid;
+  border-color:rgb(255, 127, 39);
+  border-radius: 6px;
+  outline: none;
+}
+
+#input_vestibular, #input_ano, #input_questao, #input_palavra {
+  width: 215px;
+  border: 1px solid;
+  border-color:rgb(255, 127, 39);
+  border-radius: 6px;
+  outline: none;
+}
+
+#input_palavra {
+  height: 31px;
+}
+
+#input-group_home {
+  display: flex;
+  width: 320px;
+}
+
+#input_cadastro_cidade {
+  width: 195px;
+  border: 1px solid;
+  border-color:rgb(255, 127, 39);
+  border-radius: 6px;
+  outline: none;
+  margin-right: 10px;
+}
+
+#input_cadastro_estado {
+  width: 50px;
+  border: 1px solid;
+  border-color:rgb(255, 127, 39);
+  border-radius: 6px;
+  outline: none;
+}
+
+#botao_cadastro, #botao_questao {
+  border-radius: 6px;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  height: 40px;
+  font-family: Calibri;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(255, 127, 39);
+  color: white;
+  transition: 0.3s;
+}
+
+#botao_cadastro:hover, #botao_questao:hover {
+  filter: brightness(95%);
+}
+
+#botao_cadastro:focus, #botao_questao:focus {
+  outline: none;
+}
+
+#topico {
+  border: none;
+  outline: none;
+}
+
+label#thumbnail {
+  margin-bottom: 20px;
+  border: 1px dashed #ddd;
+  background-size: cover;
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px silver;
+  border-radius: 6px;
+}
+
+label#thumbnail input {
+  display: none;
+}
+
+label#thumbnail.has-thumbnail {
+  border: 0;
+}
+
+label#thumbnail.has-thumbnail img {
+  display: none;
+}
+
+#spot-list {
+  margin: 2%;
+  width: 300px;
+  box-shadow: 5px 5px 10px silver;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+#questao {
+  width: 310px;
+  margin-right: 2%;
+  float: left;
+}
+
+#titulo {
+  margin-left: 7%;
+}
+
+#pesquisa {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#botao_pdf {
+  background-image: url(../../images/pdf40.png);
+  background-repeat: no-repeat;
+  font-size: 11px;
+  width: 140px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  margin-left: 3px;
+  padding-left: 45px;
+  color: red;
+  box-shadow: 5px 5px 10px silver;
+  transition: 0.3s;
+}
+
+#botao_pdf:hover {
+  filter: brightness(95%);
+}
+
+#lixeira {
+  border: none;
+  float: right;
+  background-color: rgb(243, 242, 239);
+  outline: none;
+}
+
+#cartao_aluno {
+  width: 310px;
+  margin-right: 2%;
+  float: left;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px silver;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#indicadores {
+  margin: 2%;
+}
+
+#graficos {
+  margin-right: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  width: 310px;  
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px silver;
+  float: left;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#tabela {
+  margin: 2%;
+  width: 310px;  
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px silver;
+  font-size: 10px;  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
