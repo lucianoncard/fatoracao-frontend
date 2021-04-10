@@ -7,7 +7,7 @@ import { Navbar, Nav, Card, Button, NavDropdown, Accordion } from 'react-bootstr
 
 import { FiTrash2 } from 'react-icons/fi';
 
-import { Chart } from "react-google-charts";
+import { Chart } from 'react-google-charts';
 
 import api from '../../api';
 import './home.css';
